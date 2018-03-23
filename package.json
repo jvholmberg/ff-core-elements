@@ -3,7 +3,7 @@
   "version": "1.0.2",
   "license": "MIT",
   "description": "A collection of core react component",
-  "homepage": "https://github.com/jvholmberg/ff-core-elements",
+  "homepage": "https://jvholmberg.github.io/ff-core-elements/",
   "main": "lib/index.js",
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
@@ -20,12 +20,12 @@
     "prepublishOnly": "npm run check && npm run build:lib"
   },
   "dependencies": {
-    "jsdoc2js-loader": "^1.0.2",
-    "markdown-to-jsx": "^6.4.0",
+    "jsdoc2js-loader": "^1.0.4",
+    "markdown-to-jsx": "6.5.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-helmet": "^5.2.0",
-    "react-exhibit": "^3.1.2",
+    "react-exhibit": "^3.1.3",
     "react-prism": "^4.3.2",
     "react-router-dom": "^4.2.2"
   },

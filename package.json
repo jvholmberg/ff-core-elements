@@ -4,17 +4,25 @@
   "license": "MIT",
   "description": "A collection of core react component",
   "homepage": "https://jvholmberg.github.io/ff-core-elements/",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
-    "storybook": "start-storybook -p 9001 -c .storybook"
+    "start": "start-storybook -p 3000 -c .storybook",
+    "deploy": "storybook-to-ghpages",
+    "build": "scripts/build.js",
+    "test": "node scripts/test.js --env=jsdom"
   },
   "dependencies": {
+    "autoprefixer": "^8.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   },
   "devDependencies": {
     "@storybook/react": "^3.3.15",
-    "babel-core": "^6.26.0"
+    "@storybook/storybook-deployer": "^2.3.0",
+    "babel-core": "^6.26.0",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest": "^22.4.3"
   },
   "repository": {
     "type": "git",

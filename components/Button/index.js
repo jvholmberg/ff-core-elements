@@ -5,4 +5,4 @@ const Button = ({ type, size, className, children, ...props }) => (
     {children}
   </button>
 );
-export default Button;
+export { Button };
